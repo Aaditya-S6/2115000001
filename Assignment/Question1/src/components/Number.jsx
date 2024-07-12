@@ -66,7 +66,7 @@ function Number() {
 
   return (
     <>
-    handleClick();
+    <button onClick={handleClick}>Fetch data</button> 
       <Link to="http://20.244.56.144/test/even">Even Number</Link>
       <Link to="http://20.244.56.144/test/prime" >Prime Number</Link>
       <Link to="http://20.244.56.144/test/fibo">Fibonacci Number</Link>
